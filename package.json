@@ -1,0 +1,19 @@
+{
+  "name": "vue-photon",
+  "description": "Vue.js component for Photon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "kaorun343 <kaoru.h65536@live.jp>",
+  "license": "MIT",
+  "scripts": {
+    "play": "vue-play start",
+    "play:build": "vue-play build"
+  },
+  "devDependencies": {
+    "node-sass": "^4.1.1",
+    "photon": "connors/photon#v0.1.2-alpha",
+    "sass-loader": "^4.1.1",
+    "vue-play": "^2.2.0",
+    "vue-play-cli": "^1.0.4"
+  }
+}
