@@ -9,6 +9,10 @@
     "play": "vue-play start",
     "play:build": "vue-play build"
   },
+  "files": [
+    "lib",
+    "index.js"
+  ],
   "devDependencies": {
     "node-sass": "^4.1.1",
     "photon": "connors/photon#v0.1.2-alpha",
