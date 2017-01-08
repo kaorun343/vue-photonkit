@@ -1,8 +1,8 @@
-# vue-photon
+# vue-photonkit
 Vue.js components for Photon
 
 ## Requirements
-* Vue.js 2.0
+* Vue.js
 * Photon
 
 ## Usage
