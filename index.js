@@ -1,5 +1,5 @@
 /**
- * vue-photon 1.0.0
+ * vue-photon 1.1.0
  */
 
 exports.Button = require('./lib/Button')
