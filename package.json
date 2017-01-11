@@ -15,9 +15,17 @@
   ],
   "devDependencies": {
     "node-sass": "^4.1.1",
-    "photon": "connors/photon#v0.1.2-alpha",
+    "photon": "github:connors/photon#v0.1.2-alpha",
     "sass-loader": "^4.1.1",
     "vue-play": "^2.2.0",
     "vue-play-cli": "^1.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaorun343/vue-photonkit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kaorun343/vue-photonkit/issues"
+  },
+  "homepage": "https://github.com/kaorun343/vue-photonkit#readme"
 }
