@@ -1,6 +1,6 @@
 {
   "name": "vue-photonkit",
-  "description": "Vue.js component for Photon",
+  "description": "Photonkit components for Vue",
   "version": "1.1.0",
   "main": "index.js",
   "author": "kaorun343 <kaoru.h65536@live.jp>",
