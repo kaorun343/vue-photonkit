@@ -1,5 +1,5 @@
 # vue-photonkit
-Vue.js components for Photon
+Photonkit components for Vue
 
 ## Requirements
 * Vue.js
