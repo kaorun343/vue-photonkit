@@ -12,7 +12,7 @@ import TabGroup from './components/TabGroup'
 import TabItem from './components/TabItem'
 import Toolbar from './components/Toolbar'
 import ToolbarActions from './components/ToolbarActions'
-import Window from './components/Window'
+import PhotonkitWindow from './components/Window'
 import WindowContent from './components/WindowContent'
 
 export default function install(Vue) {
@@ -30,6 +30,6 @@ export default function install(Vue) {
   Vue.component('ph-tab-item', TabItem)
   Vue.component('ph-toolbar', Toolbar)
   Vue.component('ph-toolbar-actions', ToolbarActions)
-  Vue.component('ph-window', Window)
+  Vue.component('ph-window', PhotonkitWindow)
   Vue.component('ph-window-content', WindowContent)
 }
