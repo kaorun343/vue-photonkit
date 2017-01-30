@@ -12,9 +12,8 @@
 </template>
 
 <script>
-import Toolbar from '../../lib/Toolbar'
-import TabGroup from '../../lib/TabGroup'
-import TabItem from '../../lib/TabItem'
+import { Toolbar, TabGroup, TabItem } from '../../src'
+
 
 export default {
   components: { Toolbar, TabGroup, TabItem },

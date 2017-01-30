@@ -3,15 +3,16 @@ export default {
   props: {
     active: Boolean
   },
+  computed: {
+    classes () {
+      return { active: this.active }
+    }
+  },
   render (h) {
     return h('span', {
       staticClass: 'nav-group-item',
-      class: { active: this.active }
+      class: this.classes
     }, this.$slots.default)
   },
-  template: `
-    <span class="nav-group-item" :class="{ active: active }">
-      <slot></slot>
-    </span>
-  `
+  template: `<span class="nav-group-item" :class="classes"><slot></slot></span>`
 }

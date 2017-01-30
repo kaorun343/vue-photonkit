@@ -1,4 +1,5 @@
 import buble from 'rollup-plugin-buble'
+import html from 'rollup-plugin-html'
 
 const { version } = require('./package.json')
 
@@ -8,6 +9,11 @@ export default {
   format: 'cjs',
   exports: 'named',
   plugins: [
+    html({
+      htmlMinifierOptions: {
+        collapseWhitespace: true
+      }
+    }),
     buble()
   ],
   banner: `/*!

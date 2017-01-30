@@ -11,10 +11,7 @@
 </template>
 
 <script>
-import Window from '../../lib/Window'
-import WindowContent from '../../lib/WindowContent'
-import PaneGroup from '../../lib/PaneGroup'
-import Pane from '../../lib/Pane'
+import { Window, WindowContent, PaneGroup, Pane } from '../../src'
 export default {
   components: { Window, WindowContent, PaneGroup, Pane }
 }

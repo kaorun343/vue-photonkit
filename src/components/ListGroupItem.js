@@ -1,13 +1,20 @@
+import template from './ListGroupItem.html'
+
 export default {
   name: 'PhotonkitGroupItem',
   props: {
     src: String,
     active: Boolean
   },
+  compouted: {
+    classes () {
+      return { active: this.active }
+    }
+  },
   render (h) {
     const data = {
       staticClass: 'list-group-item',
-      class: { active: this.active }
+      class: this.classes
     }
     return h('li', data, [
 
@@ -19,12 +26,5 @@ export default {
       h('div', { staticClass: 'media-body'}, this.$slots.default)
     ])
   },
-  template: `
-    <li class="img-group-item" :class="{ active: active }">
-      <img v-if="src" class="img-circle media-object pull-left" :src="src" width="32px" height="32px">
-      <div class="media-body">
-        <slot></slot>
-      </div>
-    </li>
-  `
+  template
 }

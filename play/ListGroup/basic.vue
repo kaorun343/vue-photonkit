@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import { ListGroup, ListGroupHeader, ListGroupItem, Icon } from '../../'
+import { ListGroup, ListGroupHeader, ListGroupItem, Icon } from '../../src'
 
 export default {
   data () {

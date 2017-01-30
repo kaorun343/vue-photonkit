@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import Btn from '../../lib/Button'
+import { Button as Btn } from '../../src'
 
 export default {
   components: { Btn }

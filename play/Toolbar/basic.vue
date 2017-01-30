@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import Toolbar from '../../lib/Toolbar'
+import { Toolbar } from '../../src'
 
 export default {
   components: { Toolbar }

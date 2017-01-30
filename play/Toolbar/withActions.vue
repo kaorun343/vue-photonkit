@@ -31,11 +31,13 @@
 </template>
 
 <script>
-import Toolbar from '../../lib/Toolbar'
-import ToolbarActions from '../../lib/ToolbarActions'
-import Btn from '../../lib/Button'
-import ButtonGroup from '../../lib/ButtonGroup'
-import Icon from '../../lib/Icon'
+import {
+  Toolbar,
+  ToolbarActions,
+  Button as Btn,
+  ButtonGroup,
+  Icon
+} from '../../src'
 
 export default {
   components: { Toolbar, ToolbarActions, Btn, ButtonGroup, Icon }

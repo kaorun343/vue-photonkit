@@ -5,8 +5,7 @@
 </template>
 
 <script>
-import Window from '../../lib/Window'
-import WindowContent from '../../lib/WindowContent'
+import { Window, WindowContent } from '../../src'
 export default {
   components: { Window, WindowContent }
 }

@@ -18,9 +18,5 @@ export default {
       class: this.classes
     }, this.$slots.default)
   },
-  template: `
-    <button class="btn" :class="classes">
-      <slot></slot>
-    </button>
-  `
+  template: `<button class="btn" :class="classes"><slot></slot></button>`
 }

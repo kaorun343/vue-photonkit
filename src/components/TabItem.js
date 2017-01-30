@@ -1,4 +1,5 @@
 import Icon from './Icon'
+import template from './TabItem.html'
 
 export default {
   name: 'PhotonkitTabItem',
@@ -9,39 +10,30 @@ export default {
     icon: String
   },
   computed: {
-    classes () {
-      return {
-        active: this.active,
-        'tab-item-fixed': this.fixed
-      }
+    tabItemClasses () {
+      return { active: this.active, 'tab-item-fixed': this.fixed }
     },
     iconClasses () {
-      return { staticClass: 'tab-item', class: this.classes }
+      return { 'icon-close-tab': !this.icon }
     }
   },
   render (h) {
-    return h('div', this.iconClasses, [
-      this.renderIcon(h),
-      this.$slots.default
-    ])
+    const icon = h('icon', {
+      class: this.iconClasses,
+      props: { icon: this.icon || 'cancel' },
+      nativeOn: { click: this.cancel }
+    })
+
+    return h('div', {
+      class: this.tabItemClasses,
+      staticClass: 'tab-item'
+    }, [ icon, this.$slots.default ])
   },
   methods: {
-    renderIcon (h) {
-      return h('icon', {
-        class: { 'icon-close-tab': !this.icon },
-        props: { icon: this.icon || 'cancel' },
-        nativeOn: { click: this.cancel }
-      })
-    },
     cancel (e) {
       e.stopPropagation()
       this.$emit('cancel')
     }
   },
-  template: `
-    <div class="tab-item" :class="classes">
-      <icon :class="icon-classes" :icon="icon || 'cancel'" @click.native="cancel"></icon>
-      <slot></slot>
-    </div>
-  `
+  template
 }

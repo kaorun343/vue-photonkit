@@ -2,7 +2,7 @@ export default {
   name: 'PhotonkitIcon',
   props: {
     icon: String,
-    text: String
+    text: Boolean
   },
   computed: {
     classes () {
@@ -16,7 +16,5 @@ export default {
       class: this.classes
     }, this.$slots.default)
   },
-  template: `
-    <span class="icon" :class="classes"><slot></slot></span>
-  `
+  template: `<span class="icon" :class="classes"><slot></slot></span>`
 }

@@ -10,9 +10,7 @@
 </template>
 
 <script>
-import NavGroup from '../../lib/NavGroup'
-import NavGroupItem from '../../lib/NavGroupItem'
-import Icon from '../../lib/Icon'
+import { NavGroup, NavGroupItem, Icon } from '../../src'
 
 export default {
   data () {

@@ -1,3 +1,5 @@
+import template from './Toolbar.html'
+
 export default {
   name: 'PhotonkitToolbar',
   props: {
@@ -12,15 +14,10 @@ export default {
     }
   },
   render (h) {
-    var data = { staticClass: 'toolbar', class: this.classes }
-    var title = h('h1', { staticClass: 'title' }, this.title)
+    const data = { staticClass: 'toolbar', class: this.classes }
+    const title = h('h1', { staticClass: 'title' }, this.title)
 
     return h(this.type, data, [title, this.$slots.default])
   },
-  template: `
-    <div class="toolbar" :class="classes">
-      <h1 class="title">{{ title }}</h1>
-      <slot></slot>
-    </div>
-  `
+  template
 }
