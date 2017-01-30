@@ -1,4 +1,5 @@
 export default {
+  name: 'PhotonkitPaneGroup',
   render (h) {
     return h('div', { staticClass: 'pane-group' }, this.$slots.default)
   },

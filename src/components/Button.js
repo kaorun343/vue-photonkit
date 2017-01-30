@@ -1,4 +1,5 @@
 export default {
+  name: 'PhotonkitButton',
   props: {
     type: String,
     size: String,

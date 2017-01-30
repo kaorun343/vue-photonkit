@@ -1,4 +1,5 @@
 export default {
+  name: 'PhotonkitToolbar',
   props: {
     type: String,
     title: String

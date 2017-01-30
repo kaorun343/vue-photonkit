@@ -1,4 +1,5 @@
 export default {
+  name: 'PhotonkitGroupHeader',
   render (h) {
     return h('li', { staticClass: 'list-group-header' }, this.$slots.default)
   },

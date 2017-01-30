@@ -1,6 +1,7 @@
 import Icon from './Icon'
 
 export default {
+  name: 'PhotonkitTabItem',
   components: { Icon },
   props: {
     active: Boolean,

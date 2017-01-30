@@ -1,4 +1,5 @@
 export default {
+  name: 'PhotonkitGroupItem',
   props: {
     src: String,
     active: Boolean

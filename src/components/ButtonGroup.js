@@ -1,4 +1,5 @@
 export default {
+  name: 'PhotonkitButtonGroup',
   render (h) {
     return h('div', { staticClass: 'btn-group' }, this.$slots.default)
   },

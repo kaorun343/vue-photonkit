@@ -1,4 +1,5 @@
 export default {
+  name: 'PhotonkitListGroup',
   render (h) {
     return h('ul', { staticClass: 'list-group' }, this.$slots.default)
   },

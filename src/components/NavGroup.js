@@ -1,4 +1,5 @@
 export default {
+  name: 'PhotonkitNavGroup',
   props: {
     title: String
   },

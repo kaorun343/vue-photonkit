@@ -1,4 +1,5 @@
 export default {
+  name: 'PhotonkitWindowContent',
   render (h) {
     return h('div', { staticClass: 'window-content' }, this.$slots.default)
   },

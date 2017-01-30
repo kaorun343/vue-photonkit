@@ -1,4 +1,5 @@
 export default {
+  name: 'PhotonkitTabGroup',
   render (h) {
     return h('div', { staticClass: 'tab-group' }, this.$slots.default)
   },

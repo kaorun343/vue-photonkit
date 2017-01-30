@@ -1,4 +1,5 @@
 export default {
+  name: 'PhotonkitNavGroupItem',
   props: {
     active: Boolean
   },

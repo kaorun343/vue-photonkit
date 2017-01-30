@@ -1,4 +1,5 @@
 export default {
+  name: 'PhotonkitIcon',
   props: {
     icon: String,
     text: String
