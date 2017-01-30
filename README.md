@@ -7,15 +7,20 @@ Photonkit components for Vue
 
 ## Usage
 
-```html
-<script>
-  import { Icon } from 'vue-photonkit'
-  const { Icon } = require('vue-photonkit')
-  // or
-  import Icon from 'vue-photonkit/lib/Icon'
-  const Icon = require('vue-photonkit/lib/Icon')
-</script>
+```js
+import { Icon } from 'vue-photonkit'
 ```
+
+If you'd like to register all components globally,
+please do like this below.
+
+```js
+import install from 'vue-photonkit'
+// then
+Vue.use(install)
+```
+
+Then, all components are available with `ph-` prefix.
 
 See [vue-play scenarios](./play)
 
