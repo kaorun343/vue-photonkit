@@ -1,7 +1,7 @@
 {
   "name": "vue-photonkit",
   "description": "Photonkit components for Vue",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "index.js",
   "author": "kaorun343 <kaoru.h65536@live.jp>",
   "license": "MIT",
@@ -11,8 +11,7 @@
     "play:build": "vue-play build --webpack-config ./webpack.config.js"
   },
   "files": [
-    "lib",
-    "index.js"
+    "lib"
   ],
   "devDependencies": {
     "buble": "^0.15.2",
