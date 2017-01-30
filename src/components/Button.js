@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   props: {
     type: String,
     size: String,

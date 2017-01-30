@@ -1,6 +1,6 @@
-var Icon = require('./Icon')
+import Icon from './Icon'
 
-module.exports = {
+export default {
   components: { Icon },
   props: {
     active: Boolean,

@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   props: {
     size: String,
     sidebar: Boolean

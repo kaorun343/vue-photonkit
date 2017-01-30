@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   render (h) {
     return h('div', { staticClass: 'pane-group' }, this.$slots.default)
   },

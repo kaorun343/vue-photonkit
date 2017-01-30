@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   props: {
     src: String,
     active: Boolean
