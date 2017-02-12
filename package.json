@@ -1,7 +1,7 @@
 {
   "name": "vue-photonkit",
   "description": "Photonkit components for Vue",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "main": "index.js",
   "author": "kaorun343 <kaoru.h65536@live.jp>",
   "license": "MIT",
@@ -9,7 +9,8 @@
     "build": "rollup -c rollup.config.js",
     "lint": "eslint play --fix",
     "play": "vue-play start --webpack-config ./webpack.config.js",
-    "play:build": "vue-play build --webpack-config ./webpack.config.js"
+    "play:build": "vue-play build --webpack-config ./webpack.config.js",
+    "prepublish": "npm run build"
   },
   "files": [
     "lib"
