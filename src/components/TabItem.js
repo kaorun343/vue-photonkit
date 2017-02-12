@@ -27,7 +27,7 @@ export default {
     return h('div', {
       class: this.tabItemClasses,
       staticClass: 'tab-item'
-    }, [ icon, this.$slots.default ])
+    }, [icon, this.$slots.default])
   },
   methods: {
     cancel (e) {

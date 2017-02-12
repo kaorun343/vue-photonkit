@@ -23,7 +23,7 @@ export default {
         attrs: { src: this.src, width: '32px', height: '32px' }
       }) : h(),
 
-      h('div', { staticClass: 'media-body'}, this.$slots.default)
+      h('div', { staticClass: 'media-body' }, this.$slots.default)
     ])
   },
   template

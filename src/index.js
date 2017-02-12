@@ -26,7 +26,7 @@ export {
   PhotonkitWindow as Window, WindowContent
 }
 
-export default function install(Vue) {
+export default function install (Vue) {
   Vue.component('ph-button', Button)
   Vue.component('ph-button-group', ButtonGroup)
   Vue.component('ph-icon', Icon)

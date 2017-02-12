@@ -6,7 +6,6 @@ export default {
   },
   computed: {
     classes () {
-      const icon = `icon-${this.icon}`
       return [`icon-${this.icon}`, { 'icon-text': this.text }]
     }
   },
