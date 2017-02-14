@@ -14,7 +14,6 @@
 <script>
 import { Toolbar, TabGroup, TabItem } from '../../src'
 
-
 export default {
   components: { Toolbar, TabGroup, TabItem },
   data () {

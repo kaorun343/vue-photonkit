@@ -1,4 +1,4 @@
 {
   "extends": ["vue"],
-  "plugins": ["vue"]
+  "plugins": ["html", "vue"]
 }
