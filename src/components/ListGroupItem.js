@@ -6,7 +6,7 @@ export default {
     src: String,
     active: Boolean
   },
-  compouted: {
+  computed: {
     classes () {
       return { active: this.active }
     }
